@@ -1,0 +1,32 @@
+<suite name="suite1">
+
+    <parameter name="email" value="sunnyk503@gmail.com"/>
+    <parameter name="password" value="h3284rgg"/>
+    <test name="Test1" >
+        <classes>
+        <class name="Demo1">
+            <methods>
+                <include name="Method1"/>
+
+            </methods>
+
+        </class>
+        </classes>
+
+    </test>
+    <test name="Test2">
+        <groups>
+                <run>
+                    <include name="smoke"/>
+
+                </run>
+        </groups>
+        <classes>
+            <class name="TestNg">
+
+            </class>
+        </classes>
+
+    </test>
+
+</suite>
