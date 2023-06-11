@@ -14,6 +14,7 @@ public class Demo1 {
     public static void Method1(@Optional("https://www.facebook.com/>") String URL, String mail, String pass)//URL and url need not be same but url inside testng.xml and parameters should be same
     {
         WebDriverManager.chromedriver().setup();
+        System.out.println("Branden added new changes");
         System.out.println("Added new changes");
         WebDriver driver =new ChromeDriver();
         driver.manage().window().maximize();
