@@ -26,5 +26,6 @@ public class Demo1 {
         email.clear();
         WebElement login = driver.findElement(By.name("login"));
         login.click();
+
     }
 }
