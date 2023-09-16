@@ -17,7 +17,11 @@ public class api_new {
                 log().all();
         System.out.println("Added new api class");
         System.out.println("added 2nd line of print statement");
+<<<<<<< HEAD
 
+=======
+        System.out.println("adreiena added new code");
+>>>>>>> ce2898ad1620094f49a3258c506c2e4140180c52
     }
 
 }
